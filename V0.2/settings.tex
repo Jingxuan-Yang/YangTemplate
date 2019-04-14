@@ -1,0 +1,117 @@
+%settings.tex
+%YangTemplate 的配置文件
+%采用input放入主文档中，不可单独编译
+
+%采用Times New Roman字体
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext, newtxmath}
+\usepackage{float}
+
+%定制tikz流程图形状
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width = 2cm, minimum height=1cm,text centered, draw = black]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=2cm, minimum height=1cm, text centered, draw=black]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black]
+\tikzstyle{decision} = [diamond, aspect = 3, text centered, draw=black]
+% 箭头形式
+\tikzstyle{arrow} = [->,>=stealth]
+
+%设置编号格式
+\newcounter{rowno}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+\renewcommand{\thefigure}{\arabic{section}-\arabic{figure}}
+\renewcommand{\thetable}{\arabic{section}-\arabic{table}}
+\renewcommand{\theequation}{\arabic{section}-\arabic{equation}}
+
+%新数学命令
+\newcommand\dif{\mathrm{d}}
+\newcommand\no{\noindent}
+\newcommand\dis{\displaystyle}
+\newcommand\ls{\leqslant}
+\newcommand\gs{\geqslant}
+
+\newcommand\limit{\dis\lim\limits}
+\newcommand\limn{\dis\lim\limits_{n\to\infty}}
+\newcommand\limxz{\dis\lim\limits_{x\to0}}
+\newcommand\limxi{\dis\lim\limits_{x\to\infty}}
+\newcommand\limxpi{\dis\lim\limits_{x\to+\infty}}
+\newcommand\limxni{\dis\lim\limits_{x\to-\infty}}
+
+%默认上限为无穷
+\newcommand\sumnf{\dis\sum\limits_{n=1}^{\infty}}
+\newcommand\sumnz{\dis\sum\limits_{n=0}^{\infty}}
+\newcommand\sumkf{\dis\sum\limits_{k=1}^{\infty}}
+\newcommand\sumkz{\dis\sum\limits_{k=0}^{\infty}}
+\newcommand\sumifn{\dis\sum\limits_{i=1}^{n}}
+\newcommand\sumizn{\dis\sum\limits_{i=0}^{n}}
+\newcommand\sumkzn{\dis\sum\limits_{k=0}^n}
+\newcommand\sumkfn{\dis\sum\limits_{k=1}^n}
+
+\newcommand\pzx{\dis\frac{\partial z}{\partial x}}
+\newcommand\pzy{\dis\frac{\partial z}{\partial y}}
+
+\newcommand\pfx{\dis\frac{\partial f}{\partial x}}
+\newcommand\pfy{\dis\frac{\partial f}{\partial x}}
+
+\newcommand\pzxx{\dis\frac{\partial^2 z}{\partial x^2}}
+\newcommand\pzxy{\dis\frac{\partial^2 z}{\partial x\partial y}}
+\newcommand\pzyx{\dis\frac{\partial^2 z}{\partial y\partial x}}
+\newcommand\pzyy{\dis\frac{\partial^2 z}{\partial y^2}}
+
+\newcommand\pfxx{\dis\frac{\partial^2 f}{\partial x^2}}
+\newcommand\pfxy{\dis\frac{\partial^2 f}{\partial x\partial y}}
+\newcommand\pfyx{\dis\frac{\partial^2 f}{\partial y\partial x}}
+\newcommand\pfyy{\dis\frac{\partial^2 f}{\partial y^2}}
+
+\newcommand\intzi{\dis\int_{0}^{+\infty}}
+\newcommand\intd{\dis\int}
+\newcommand\intab{\dis\int_a^b}
+
+\newenvironment{mfrac}[2]%
+{\raise0.5ex\hbox{$#1$}\! \left/ \! \lower0.5ex\hbox{$#2$}\right.}
+
+%定义新数学符号
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arccosh}{arccosh}
+\DeclareMathOperator{\arcsinh}{arcsinh}
+\DeclareMathOperator{\arctanh}{arctanh}
+\DeclareMathOperator{\arccoth}{arccoth}
+\DeclareMathOperator{\grad}{\bf{grad}}
+
+\usepackage{url}
+
+%自定义字号大小命令
+%修改18pt为想要的字号即可
+\newcommand{\myfont}{\fontsize{18pt}{\baselineskip}\selectfont}
+
+%定制页眉页脚
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%页眉
+\lhead{}
+\chead{基于神经网络的机器人智能抓取研究}
+\rhead{}
+%页脚
+\lfoot{}
+\cfoot{-\thepage-}
+\rfoot{}
+
+%页眉页脚横线
+%\renewcommand{\headrulewidth}{0.4pt}
+%\renewcommand{\footrulewidth}{0pt}
+
+%双横线
+\newcommand{\makeheadrule}{%
+\makebox[0pt][l]{\rule[0.2\baselineskip]{\headwidth}{1.3pt}}%
+\rule[0.35\baselineskip]{\headwidth}{2.5pt}}
+\renewcommand{\headrule}{%
+{\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
+\makeheadrule}}
+\makeatother
+
+%设置脚注编号格式
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
