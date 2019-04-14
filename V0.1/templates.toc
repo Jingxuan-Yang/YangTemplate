@@ -1,0 +1,14 @@
+\contentsline {section}{摘要}{I}{figure.caption.1}
+\contentsline {section}{目录}{II}{section*.2}
+\contentsline {section}{\numberline {第 1 章\tmspace +\thinmuskip {.1667em}\tmspace +\thinmuskip {.1667em}\tmspace +\thinmuskip {.1667em}}研究背景}{1}{section.1}
+\contentsline {section}{\numberline {第 2 章\tmspace +\thinmuskip {.1667em}\tmspace +\thinmuskip {.1667em}\tmspace +\thinmuskip {.1667em}}文献综述}{3}{section.2}
+\contentsline {subsection}{\numberline {2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}}抓取物体图像识别}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}}机器人抓取策略}{4}{subsection.2.2}
+\contentsline {section}{\numberline {第 3 章\tmspace +\thinmuskip {.1667em}\tmspace +\thinmuskip {.1667em}\tmspace +\thinmuskip {.1667em}}典型神经网络案例分析}{6}{section.3}
+\contentsline {subsection}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}}基于复值神经网络的机器人抓取}{6}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}}实值神经网络发展历程}{6}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}}复值神经网络的兴起}{6}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}}对具体任务的分析和对策}{7}{subsection.3.2}
+\contentsline {section}{\numberline {第 4 章\tmspace +\thinmuskip {.1667em}\tmspace +\thinmuskip {.1667em}\tmspace +\thinmuskip {.1667em}}模型的假设}{8}{section.4}
+\contentsline {subsection}{\numberline {4\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}}符号说明}{8}{subsection.4.1}
+\contentsfinish 
