@@ -1,4 +1,4 @@
 # YangTemplate
 A LaTeX template for daily papers.
 
-Please use the newest version V1.0.
+Please use the latest version V1.0.
